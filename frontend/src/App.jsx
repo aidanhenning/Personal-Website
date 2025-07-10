@@ -9,7 +9,7 @@ import Contact from "./components/Contact/Contact";
 
 function App() {
   return (
-    <>
+    <div className="page">
       <Header />
       <Routes>
         <Route path="/" element={<Home />} />
@@ -18,7 +18,7 @@ function App() {
         <Route path="/contact" element={<Contact />} />
       </Routes>
       <Footer />
-    </>
+    </div>
   );
 }
 
