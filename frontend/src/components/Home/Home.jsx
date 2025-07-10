@@ -4,19 +4,23 @@ import heroImage from "../../assets/personal-headshot.jpg";
 function Home() {
   return (
     <>
-      <section>
-        <div>
-          <h1>Hello, I'm Aidan Henning</h1>
-          <h2>Fullstack Web Developer</h2>
+      <section className={styles.hero}>
+        <div className={styles.heroText}>
+          <h1>
+            Hello, I'm <br /> Aidan Henning
+          </h1>
+          <p>Fullstack Web Developer</p>
           <address>📍 Santa Monica</address>
-          <button>My Resume</button>
-          <button>Contact Me</button>
+          <div className={styles.heroButtons}>
+            <button className="btn btn-primary">My Resume</button>
+            <button className="btn btn-secondary">Contact Me</button>
+          </div>
         </div>
-        <div>
+        <div className={styles.heroImage}>
           <img src={heroImage} alt="headshot of Aidan" width="200px" />
         </div>
       </section>
-      <section>
+      <section className={styles.skills}>
         <h2>Skills</h2>
         <ul>
           <li>HTML</li>
@@ -29,7 +33,7 @@ function Home() {
           <li>GIT</li>
         </ul>
       </section>
-      <section>
+      <section className={styles.projects}>
         <h2>Projects</h2>
         <div>
           <div>Personal Website</div>
@@ -37,7 +41,7 @@ function Home() {
           <div>Artist Storefront</div>
         </div>
       </section>
-      <section>
+      <section className={styles.cta}>
         <h2>Hire me!</h2>
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis,
