@@ -12,7 +12,7 @@
   margin: 0 auto;
 
   background-color: var(--transparent-grey);
-  backdrop-filter: blur(2px);
+  backdrop-filter: blur(4px);
 }
 .navList {
   display: flex;
