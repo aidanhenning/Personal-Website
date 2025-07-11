@@ -1,12 +1,13 @@
 :root {
-  --primary-color: ;
-  --secondary-color: ;
+  --primary-color: #bc1dec;
+  --secondary-color: #4a1dec;
 
   --color-white: #fff;
   --color-black: #000;
 
   --grey-100: #b3b3b3;
   --grey-200: #313131;
+  --grey-300: #13131360;
   --transparent-grey: #55555531;
 
   --bg-color: #030014;
@@ -30,18 +31,49 @@
 h1 {
   font-size: 72px;
   line-height: 1.2;
+  color: var(--color-white);
 }
 h2 {
   font-size: 48px;
   line-height: 1.2;
+  color: var(--color-white);
 }
 h3 {
   font-size: 40px;
   line-height: 1.2;
+  color: var(--color-white);
 }
 p {
   font-size: 16px;
   line-height: 1.6;
+  color: var(--color-white);
+}
+
+.btn {
+  padding: 0.5rem 1rem;
+  border-radius: 8px;
+  color: var(--color-white);
+}
+.btn:hover {
+  cursor: pointer;
+  font-weight: 600;
+  border-color: var(--grey-100);
+  background-color: var(--grey-100);
+  color: var(--color-black);
+}
+.btn-primary {
+  border: 2px solid var(--grey-200);
+  background-color: var(--grey-200);
+}
+.btn-secondary {
+  border: 2px solid var(--grey-200);
+  background-color: var(--transparent-grey);
+}
+
+hr {
+  width: 80%;
+  margin: 0 auto;
+  border-color: var(--grey-300);
 }
 
 @media (max-width: 992px) {
