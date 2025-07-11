@@ -8,23 +8,55 @@ function Header() {
         <nav className={styles.nav}>
           <ul className={styles.navList}>
             <li>
-              <NavLink to="/" className={styles.navLink}>
-                Home
+              <NavLink
+                to="/"
+                className={({ isActive }) =>
+                  isActive
+                    ? `${styles.navLink} ${styles.active}`
+                    : styles.navLink
+                }
+              >
+                <span>01</span>
+                <p>// Home</p>
               </NavLink>
             </li>
             <li>
-              <NavLink to="/work" className={styles.navLink}>
-                Work
+              <NavLink
+                to="/work"
+                className={({ isActive }) =>
+                  isActive
+                    ? `${styles.navLink} ${styles.active}`
+                    : styles.navLink
+                }
+              >
+                <span>02</span>
+                <p>// Work</p>
               </NavLink>
             </li>
             <li>
-              <NavLink to="/about" className={styles.navLink}>
-                About
+              <NavLink
+                to="/about"
+                className={({ isActive }) =>
+                  isActive
+                    ? `${styles.navLink} ${styles.active}`
+                    : styles.navLink
+                }
+              >
+                <span>03</span>
+                <p>// About</p>
               </NavLink>
             </li>
             <li>
-              <NavLink to="/contact" className={styles.navLink}>
-                Contact
+              <NavLink
+                to="/contact"
+                className={({ isActive }) =>
+                  isActive
+                    ? `${styles.navLink} ${styles.active}`
+                    : styles.navLink
+                }
+              >
+                <span>04</span>
+                <p>// Contact</p>
               </NavLink>
             </li>
           </ul>

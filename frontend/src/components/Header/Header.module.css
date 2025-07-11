@@ -3,16 +3,14 @@
   top: 0;
 
   padding-top: 1rem;
+
+  backdrop-filter: blur(5px);
 }
 .nav {
-  max-width: 20%;
-  padding: 0.75rem 1.5rem;
-  border: 1px solid var(--grey-200);
-  border-radius: 35px;
+  padding: 0.5rem 0;
   margin: 0 auto;
 
-  background-color: var(--transparent-grey);
-  backdrop-filter: blur(4px);
+  backdrop-filter: blur(5px);
 }
 .navList {
   display: flex;
@@ -20,15 +18,32 @@
   justify-content: space-between;
   align-items: center;
 
+  width: 30%;
+  margin: 0 auto;
+
   list-style: none;
 }
 .navLink {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: end;
+
   text-decoration: none;
   font-size: 14px;
   font-weight: 600;
 
   color: var(--grey-100);
 }
+.navLink p {
+  color: var(--grey-100);
+}
 .navLink:hover {
   color: var(--color-white);
+}
+.navLink p:hover {
+  color: var(--color-white);
+}
+.active {
+  border-bottom: 2px solid var(--color-white);
 }
