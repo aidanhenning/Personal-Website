@@ -1,8 +1,10 @@
+/* HERO */
 .hero {
   display: grid;
   grid-template-columns: repeat(2, 50%);
+  gap: 3rem;
 
-  padding: 15rem 20% 5rem;
+  padding: 15rem 20% 10rem;
   margin: 0 auto;
 }
 .heroText {
@@ -32,18 +34,91 @@
   gap: 0.5rem;
 }
 .heroImage {
+  width: 100%;
+}
+
+/* SKILLS */
+.skills {
   display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  padding: 5rem 20%;
+  margin: 0 auto;
+}
+.skillsHeader {
+  margin-bottom: 2rem;
+}
+.skillsCard {
+  display: grid;
+  grid-template-columns: repeat(2, 50%);
+  margin-bottom: 2rem;
+}
+.skillsCard ul {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  flex-wrap: wrap;
+  list-style: none;
+}
+.skillsCard ul li {
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  align-items: center;
+  gap: 0.5rem;
+
+  color: var(--color-white);
+}
+.skillsCard ul li img {
+  max-width: 40px;
+}
+
+/* PROJECTS */
+.projects {
+  display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
-}
-.skills {
+  gap: 2rem;
+
   padding: 5rem 20%;
   margin: 0 auto;
 }
-.projects {
-  padding: 5rem 20%;
-  margin: 0 auto;
+.projectCards {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
 }
+.projectCard {
+  display: grid;
+  grid-template-columns: 60% 40%;
+  gap: 1rem;
+}
+.projectImageContainer {
+  width: 100%;
+  overflow: hidden;
+}
+.projectCardDescription {
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-items: start;
+  gap: 1rem;
+}
+.projectTechButtons {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+.projectTechButton {
+  padding: 0.125rem 1.5rem;
+  border: 1px solid var(--grey-100);
+  border-radius: 15px;
+  background-color: var(--transparent-grey);
+}
+
+/* CTA */
 .cta {
   padding: 5rem 20%;
   margin: 0 auto;

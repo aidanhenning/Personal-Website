@@ -7,6 +7,7 @@
 
   --grey-100: #b3b3b3;
   --grey-200: #313131;
+  --grey-300: #13131360;
   --transparent-grey: #55555531;
 
   --bg-color: #030014;
@@ -67,6 +68,12 @@ p {
 .btn-secondary {
   border: 2px solid var(--grey-200);
   background-color: var(--transparent-grey);
+}
+
+hr {
+  width: 80%;
+  margin: 0 auto;
+  border-color: var(--grey-300);
 }
 
 @media (max-width: 992px) {
