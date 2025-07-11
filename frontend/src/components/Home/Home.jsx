@@ -106,7 +106,7 @@ function Home() {
       <hr />
 
       <section className={styles.projects}>
-        <h2>My Work</h2>
+        <h2>Featured Work</h2>
         <div className={styles.projectCards}>
           <div class={styles.projectCard}>
             <div class={styles.projectImageContainer}>
