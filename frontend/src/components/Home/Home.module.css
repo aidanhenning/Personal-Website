@@ -35,6 +35,7 @@
 }
 .heroImage {
   width: 100%;
+  border-radius: 20px;
 }
 
 /* SKILLS */
@@ -96,7 +97,9 @@
 }
 .projectImageContainer {
   width: 100%;
-  overflow: hidden;
+}
+.projectImageContainer img {
+  border-radius: 20px;
 }
 .projectCardDescription {
   display: flex;

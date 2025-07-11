@@ -22,9 +22,11 @@ function Home() {
             Hello, I'm <br /> Aidan Henning
           </h1>
           <p>Fullstack Web Developer</p>
-          <address>📍 Santa Monica</address>
+          <address>📍 Santa Monica, CA</address>
           <div className={styles.heroButtons}>
-            <button className="btn btn-primary">My Resume</button>
+            <button className="btn btn-primary">
+              My Resume <ion-icon name="download-outline"></ion-icon>
+            </button>
             <button className="btn btn-secondary">Contact Me</button>
           </div>
         </div>
