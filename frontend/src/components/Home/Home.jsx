@@ -1,5 +1,4 @@
 import styles from "./Home.module.css";
-import heroImage from "../../assets/personal-headshot.jpg";
 import htmlLogo from "../../assets/icons8-html-5.svg";
 import cssLogo from "../../assets/icons8-css3.svg";
 import javascriptLogo from "../../assets/icons8-javascript.svg";
@@ -19,7 +18,7 @@ function Home() {
       <section className={styles.hero}>
         <div className={styles.heroText}>
           <h1>
-            Hello, I'm <br /> Aidan Henning
+            Hello, I'm <br /> <span className={styles.name}>Aidan Henning</span>
           </h1>
           <p>Fullstack Web Developer</p>
           <address>📍 Santa Monica, CA</address>
@@ -30,7 +29,7 @@ function Home() {
             <button className="btn btn-secondary">Contact Me</button>
           </div>
         </div>
-        <div>
+        <div className={styles.heroImageContainer}>
           <img
             className={styles.heroImage}
             src={aiProfile}
@@ -181,7 +180,7 @@ function Home() {
       <hr />
 
       <section className={styles.cta}>
-        <h2>Hire me!</h2>
+        <h2 className={styles.ctaHeader}>Hire me!</h2>
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis,
           perspiciatis. Beatae autem veniam sequi temporibus asperiores, tenetur
