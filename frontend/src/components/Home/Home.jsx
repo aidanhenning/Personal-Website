@@ -95,7 +95,7 @@ function Home() {
             <ul>
               <li>
                 <img src={postgresqlLogo} alt="postgresql logo" />
-                <p>Postgresql</p>
+                <p>PostgreSQL</p>
               </li>
             </ul>
           </div>

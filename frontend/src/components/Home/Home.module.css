@@ -57,10 +57,8 @@
 }
 .skillsCards {
   display: grid;
-  grid-template-columns: repeat(2, 50%);
+  grid-template-columns: repeat(2, minmax(0, 1fr));
   gap: 2rem;
-
-  width: 100%;
 }
 .skillsCard {
   display: flex;
@@ -183,6 +181,10 @@
 }
 @media (max-width: 992px) {
   .hero {
+    display: flex;
+    flex-direction: column;
+  }
+  .skillsCards {
     display: flex;
     flex-direction: column;
   }
