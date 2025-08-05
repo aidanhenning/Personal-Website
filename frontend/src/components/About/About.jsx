@@ -2,7 +2,7 @@ import React from "react";
 
 export default function About() {
   return (
-    <div id="about" className="mx-auto px-[10%]">
+    <div id="about" className="mx-auto px-[10%] mb-[10%]">
       <h2 className="text-center text-4xl md:text-5xl font-bold bg-gradient-to-r from-[#6366f1] to-[#a855f7] bg-clip-text text-transparent mb-6">
         About Me
       </h2>
@@ -17,7 +17,7 @@ export default function About() {
         I decided to make a career pivot and enroll in a software development
         bootcamp.
       </p>
-      <p className="text-center text-lg text-black dark:text-white mb-8">
+      <p className="text-center text-lg text-black dark:text-white mb-2">
         Today, I enjoy applying my problem-solving skills, creativity, and
         attention to detail to build applications that create real value for
         people. I’m excited to grow as a fullstack developer, learn from
