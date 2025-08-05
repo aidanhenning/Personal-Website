@@ -36,19 +36,19 @@ export default function Skills() {
           <div className="flex flex-wrap gap-2">
             <div className="relative">
               <div className="flex items-center gap-1 px-3 py-2 rounded-full border border-gray-700 hover:border-[#a855f7] shadow-md hover:shadow-[#a855f7]">
-                <img class="w-4 h-4" src={htmlIcon} alt="html icon" />
+                <img className="w-4 h-4" src={htmlIcon} alt="html icon" />
                 <span className="text-sm text-black dark:text-white">HTML</span>
               </div>
             </div>
             <div className="relative">
               <div className="flex items-center gap-1 px-3 py-2 rounded-full border border-gray-700 hover:border-[#a855f7] shadow-md hover:shadow-[#a855f7]">
-                <img class="w-4 h-4" src={cssIcon} alt="css icon" />
+                <img className="w-4 h-4" src={cssIcon} alt="css icon" />
                 <span className="text-sm text-black dark:text-white">CSS</span>
               </div>
             </div>
             <div className="relative">
               <div className="flex items-center gap-1 px-3 py-2 rounded-full border border-gray-700 hover:border-[#a855f7] shadow-md hover:shadow-[#a855f7]">
-                <img class="w-4 h-4" src={jsIcon} alt="javascript icon" />
+                <img className="w-4 h-4" src={jsIcon} alt="javascript icon" />
                 <span className="text-sm text-black dark:text-white">
                   JAVASCRIPT
                 </span>
@@ -56,7 +56,7 @@ export default function Skills() {
             </div>
             <div className="relative">
               <div className="flex items-center gap-1 px-3 py-2 rounded-full border border-gray-700 hover:border-[#a855f7] shadow-md hover:shadow-[#a855f7]">
-                <img class="w-4 h-4" src={reactIcon} alt="react icon" />
+                <img className="w-4 h-4" src={reactIcon} alt="react icon" />
                 <span className="text-sm text-black dark:text-white">
                   REACT
                 </span>
@@ -64,7 +64,11 @@ export default function Skills() {
             </div>
             <div className="relative">
               <div className="flex items-center gap-1 px-3 py-2 rounded-full border border-gray-700 hover:border-[#a855f7] shadow-md hover:shadow-[#a855f7]">
-                <img class="w-4 h-4" src={tailwindIcon} alt="tailwind icon" />
+                <img
+                  className="w-4 h-4"
+                  src={tailwindIcon}
+                  alt="tailwind icon"
+                />
                 <span className="text-sm text-black dark:text-white">
                   TAILWIND CSS
                 </span>
@@ -80,7 +84,7 @@ export default function Skills() {
           <div className="flex flex-wrap gap-2">
             <div className="relative">
               <div className="flex items-center gap-1 px-3 py-2 rounded-full border border-gray-700 hover:border-[#a855f7] shadow-md hover:shadow-[#a855f7]">
-                <img class="w-4 h-4" src={nodeIcon} alt="node icon" />
+                <img className="w-4 h-4" src={nodeIcon} alt="node icon" />
                 <span className="text-sm text-black dark:text-white">
                   NODE JS
                 </span>
@@ -88,7 +92,7 @@ export default function Skills() {
             </div>
             <div className="relative">
               <div className="flex items-center gap-1 px-3 py-2 rounded-full border border-gray-700 hover:border-[#a855f7] shadow-md hover:shadow-[#a855f7]">
-                <img class="w-4 h-4" src={expressIcon} alt="express icon" />
+                <img className="w-4 h-4" src={expressIcon} alt="express icon" />
                 <span className="text-sm text-black dark:text-white">
                   EXPRESS JS
                 </span>
@@ -105,7 +109,7 @@ export default function Skills() {
             <div className="relative">
               <div className="flex items-center gap-1 px-3 py-2 rounded-full border border-gray-700 hover:border-[#a855f7] shadow-md hover:shadow-[#a855f7]">
                 <img
-                  class="w-4 h-4"
+                  className="w-4 h-4"
                   src={postgresqlIcon}
                   alt="postgresql icon"
                 />
@@ -124,7 +128,7 @@ export default function Skills() {
           <div className="flex flex-wrap gap-2">
             <div className="relative">
               <div className="flex items-center gap-1 px-3 py-2 rounded-full border border-gray-700 hover:border-[#a855f7] shadow-md hover:shadow-[#a855f7]">
-                <img class="w-4 h-4" src={vscodeIcon} alt="vscode icon" />
+                <img className="w-4 h-4" src={vscodeIcon} alt="vscode icon" />
                 <span className="text-sm text-black dark:text-white">
                   VSCODE
                 </span>
@@ -132,13 +136,13 @@ export default function Skills() {
             </div>
             <div className="relative">
               <div className="flex items-center gap-1 px-3 py-2 rounded-full border border-gray-700 hover:border-[#a855f7] shadow-md hover:shadow-[#a855f7]">
-                <img class="w-4 h-4" src={gitIcon} alt="git icon" />
+                <img className="w-4 h-4" src={gitIcon} alt="git icon" />
                 <span className="text-sm text-black dark:text-white">GIT</span>
               </div>
             </div>
             <div className="relative">
               <div className="flex items-center gap-1 px-3 py-2 rounded-full border border-gray-700 hover:border-[#a855f7] shadow-md hover:shadow-[#a855f7]">
-                <img class="w-4 h-4" src={githubIcon} alt="github icon" />
+                <img className="w-4 h-4" src={githubIcon} alt="github icon" />
                 <span className="text-sm text-black dark:text-white">
                   GITHUB
                 </span>
@@ -146,7 +150,7 @@ export default function Skills() {
             </div>
             <div className="relative">
               <div className="flex items-center gap-1 px-3 py-2 rounded-full border border-gray-700 hover:border-[#a855f7] shadow-md hover:shadow-[#a855f7]">
-                <img class="w-4 h-4" src={figmaIcon} alt="figma icon" />
+                <img className="w-4 h-4" src={figmaIcon} alt="figma icon" />
                 <span className="text-sm text-black dark:text-white">
                   FIGMA
                 </span>
