@@ -1,5 +1,5 @@
-import { useState } from "react";
 import "./App.css";
+import { useState } from "react";
 import About from "./components/About/About";
 import BackToTop from "./components/BackToTop/BackToTop";
 import Contact from "./components/Contact/Contact";
