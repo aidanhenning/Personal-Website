@@ -3,7 +3,7 @@ import React from "react";
 export default function About() {
   return (
     <div id="about" className="mx-auto px-[10%]">
-      <h2 className="text-center text-black dark:text-white text-4xl md:text-5xl font-bold mb-6">
+      <h2 className="text-center text-4xl md:text-5xl font-bold bg-gradient-to-r from-[#6366f1] to-[#a855f7] bg-clip-text text-transparent mb-6">
         About Me
       </h2>
       <p className="text-center text-lg text-black dark:text-white mb-2">
