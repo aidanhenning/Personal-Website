@@ -2,7 +2,7 @@ import React from "react";
 
 export default function About() {
   return (
-    <div id="about">
+    <div id="about" className="mx-auto px-[10%]">
       <h2 className="text-center text-black dark:text-white text-4xl md:text-5xl font-bold mb-6">
         About Me
       </h2>
