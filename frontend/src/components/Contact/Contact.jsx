@@ -3,7 +3,7 @@ import { FaGithub } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
 import { MdEmail } from "react-icons/md";
 
-export default function Contact({ isDark }) {
+export default function Contact() {
   const recipientEmail = "henningaidan@gmail.com";
   const subject = "Inquiry about your service";
   const body = "Hello, I would like to inquire about...";
@@ -28,25 +28,24 @@ export default function Contact({ isDark }) {
         <a
           href="https://github.com/aidanhenning"
           target="_blank"
-          className="flex flex-col items-center bg-white dark:bg-zinc-800 backdrop-blur-sm rounded-2xl p-6 border border-gray-700/50 hover:border-[#6366f1] shadow-lg hover:cursor-pointer"
+          className="flex flex-col items-center text-black dark:text-white bg-white dark:bg-zinc-800 backdrop-blur-sm rounded-2xl p-6 border border-gray-700/50 hover:border-[#6366f1] shadow-lg hover:cursor-pointer"
         >
-          {isDark ? <FaGithub color="white" /> : <FaGithub />} Github
+          <FaGithub /> Github
         </a>
 
         <a
           href="https://www.linkedin.com/in/aidanhenning/"
           target="_blank"
-          className="flex flex-col items-center bg-white dark:bg-zinc-800 backdrop-blur-sm rounded-2xl p-6 border border-gray-700/50 hover:border-[#6366f1] shadow-lg hover:cursor-pointer"
+          className="flex flex-col items-center text-black dark:text-white bg-white dark:bg-zinc-800 backdrop-blur-sm rounded-2xl p-6 border border-gray-700/50 hover:border-[#6366f1] shadow-lg hover:cursor-pointer"
         >
-          {isDark ? <FaLinkedin color="white" /> : <FaLinkedin />} LinkedIn
+          <FaLinkedin /> LinkedIn
         </a>
 
         <div
           onClick={handleEmailClick}
-          className="flex flex-col items-center bg-white dark:bg-zinc-800 backdrop-blur-sm rounded-2xl p-6 border border-gray-700/50 hover:border-[#6366f1] shadow-lg hover:cursor-pointer"
+          className="flex flex-col items-center text-black dark:text-white bg-white dark:bg-zinc-800 backdrop-blur-sm rounded-2xl p-6 border border-gray-700/50 hover:border-[#6366f1] shadow-lg hover:cursor-pointer"
         >
-          {isDark ? <MdEmail color="white" /> : <MdEmail />}
-          Email
+          <MdEmail /> Email
         </div>
       </div>
     </div>

@@ -20,7 +20,7 @@ function App() {
         <About />
         <Skills />
         <Portfolio />
-        <Contact isDark={isDark} />
+        <Contact />
         <Footer />
         <BackToTop />
       </div>
