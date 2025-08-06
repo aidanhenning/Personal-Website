@@ -11,7 +11,7 @@ export default function Hero() {
     }
   }
   return (
-    <div className="min-h-screen overflow-hidden">
+    <div className="min-h-screen overflow-hidden pt-16">
       <div className="min-h-screen mx-auto px-[10%] flex flex-col items-center justify-center md:grid md:grid-cols-2 gap-3">
         <div className="text-start space-y-4">
           <h1 className="text-5xl md:text-6xl font-bold">
