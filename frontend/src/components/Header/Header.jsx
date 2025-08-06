@@ -67,7 +67,7 @@ export default function Header({ isDark, setIsDark }) {
         <ul className="hidden md:flex space-x-8 items-center">{navLinks}</ul>
 
         {/* Hamburger icon */}
-        <div className="md:hidden">
+        <div className="md:hidden ">
           <button onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}>
             {isMobileMenuOpen ? (
               <RxCross1 className="text-black dark:text-white" size={24} />
@@ -82,7 +82,7 @@ export default function Header({ isDark, setIsDark }) {
 
         {/* Mobile menu dropdown */}
         {isMobileMenuOpen && (
-          <ul className="absolute top-16 left-0 w-full bg-white dark:bg-zinc-800 text-black dark:text-white flex flex-col items-center space-y-4 py-6 md:hidden shadow-md z-10">
+          <ul className="absolute top-15 left-0 w-full bg-white dark:bg-zinc-800 text-black dark:text-white flex flex-col items-center space-y-4 py-6 md:hidden shadow-md z-10">
             {navLinks}
           </ul>
         )}
