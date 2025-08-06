@@ -11,7 +11,10 @@ export default function Hero() {
     }
   }
   return (
-    <div className="flex min-h-screen overflow-hidden pt-24 md:pt-0 mb-[10%] md:mb-0">
+    <div
+      id="hero"
+      className="flex min-h-screen overflow-hidden pt-24 md:pt-0 mb-[10%] md:mb-0"
+    >
       <div className="flex-grow mx-auto px-[10%] flex flex-col items-center justify-center md:grid md:grid-cols-2 gap-3">
         <div className="text-start space-y-4 mb-6 md:mb-0">
           <h1 className="text-5xl md:text-6xl font-bold">

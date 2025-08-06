@@ -21,8 +21,8 @@ function App() {
         <Skills />
         <Portfolio />
         <Contact />
-        <Footer />
         <BackToTop />
+        <Footer />
       </div>
     </>
   );
