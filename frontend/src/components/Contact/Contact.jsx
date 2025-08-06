@@ -6,14 +6,10 @@ import { MdEmail } from "react-icons/md";
 export default function Contact() {
   const recipientEmail = "henningaidan@gmail.com";
   const subject = "Inquiry about your service";
-  const body = "Hello, I would like to inquire about...";
-
-  const handleEmailClick = () => {
-    const mailtoLink = `mailto:${recipientEmail}?subject=${encodeURIComponent(
-      subject
-    )}&body=${encodeURIComponent(body)}`;
-    window.location.href = mailtoLink;
-  };
+  const body = "I'd like to inquire about your services...";
+  const mailHandler = `mailto:${recipientEmail}?subject=${encodeURIComponent(
+    subject
+  )}&body=${encodeURIComponent(body)}`;
 
   return (
     <div id="contact" className="mx-auto px-[10%] mb-[10%]">
@@ -49,13 +45,13 @@ export default function Contact() {
           <FaLinkedin /> LinkedIn
         </a>
 
-        <div
+        <a
           data-aos="fade-up-left"
-          onClick={handleEmailClick}
+          href={mailHandler}
           className="flex flex-col items-center text-black dark:text-white bg-white dark:bg-zinc-800 backdrop-blur-sm rounded-2xl p-6 border border-gray-700/50 hover:border-indigo-500 shadow-md hover:shadow-indigo-500/20 hover:cursor-pointer hover:transition hover:duration-300"
         >
           <MdEmail /> Email
-        </div>
+        </a>
       </div>
     </div>
   );
