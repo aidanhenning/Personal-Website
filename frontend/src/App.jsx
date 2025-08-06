@@ -14,7 +14,11 @@ function App() {
 
   return (
     <>
-      <div className={`${isDark ? "dark" : ""} bg-white dark:bg-zinc-800`}>
+      <div
+        className={`${
+          isDark ? "dark" : ""
+        } bg-white dark:bg-zinc-800 overflow-hidden`}
+      >
         <Header isDark={isDark} setIsDark={setIsDark} />
         <Hero />
         <About />
