@@ -1,6 +1,7 @@
 import React from "react";
 import Lottie from "lottie-react";
 import animation from "../../assets/Programming Animation.json";
+import resume from "../../assets/aidanhenning_resume.pdf";
 
 export default function Hero() {
   function scrollToSection(id) {
@@ -10,6 +11,7 @@ export default function Hero() {
       setIsMobileMenuOpen(false);
     }
   }
+
   return (
     <div
       id="hero"
@@ -34,9 +36,13 @@ export default function Hero() {
             impress.
           </p>
           <div className="flex gap-4">
-            <button className="flex items-center justify-center gap-1.5 text-white font-semibold bg-gradient-to-r from-[#6366f1] to-[#a855f7] py-2 px-4 rounded hover:cursor-pointer">
+            <a
+              href={resume}
+              target="_blank"
+              className="flex items-center justify-center gap-1.5 text-white font-semibold bg-gradient-to-r from-[#6366f1] to-[#a855f7] py-2 px-4 rounded hover:cursor-pointer"
+            >
               Resume <ion-icon name="cloud-download"></ion-icon>
-            </button>
+            </a>
             <button
               className="flex items-center justify-center gap-1.5 text-black dark:text-white font-semibold bg-gray-400/20 py-2 px-4 rounded hover:bg-gray-500/20 hover:cursor-pointer hover:transition hover:duration-300"
               onClick={() => scrollToSection("contact")}
