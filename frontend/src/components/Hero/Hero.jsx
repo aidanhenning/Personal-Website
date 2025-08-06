@@ -51,7 +51,7 @@ export default function Hero() {
             </button>
           </div>
         </div>
-        <div className="text-center">
+        <div className="justify-self-center max-w-md">
           <Lottie animationData={animation} />
         </div>
       </div>
