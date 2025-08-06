@@ -11,9 +11,9 @@ export default function Hero() {
     }
   }
   return (
-    <div className="flex min-h-screen overflow-hidden pt-24 md:pt-0">
+    <div className="flex min-h-screen overflow-hidden pt-24 md:pt-0 mb-[10%] md:mb-0">
       <div className="flex-grow mx-auto px-[10%] flex flex-col items-center justify-center md:grid md:grid-cols-2 gap-3">
-        <div className="text-start space-y-4 mb-6">
+        <div className="text-start space-y-4 mb-6 md:mb-0">
           <h1 className="text-5xl md:text-6xl font-bold">
             <span className="text-black dark:text-white">Hi, I'm</span> <br />
             <span className="bg-gradient-to-r from-[#6366f1] to-[#a855f7] bg-clip-text text-transparent">
@@ -42,7 +42,7 @@ export default function Hero() {
             </button>
           </div>
         </div>
-        <div className="text-center mb-12">
+        <div className="text-center">
           <Lottie animationData={animation} />
         </div>
       </div>
