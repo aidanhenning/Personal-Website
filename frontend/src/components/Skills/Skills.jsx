@@ -19,16 +19,25 @@ import figmaIcon from "../../assets/icons8-figma.svg";
 export default function Skills() {
   return (
     <div id="skills" className="mx-auto px-[10%] mb-[10%]">
-      <h2 className="text-center text-4xl md:text-5xl font-bold bg-gradient-to-r from-[#6366f1] to-[#a855f7] bg-clip-text text-transparent mb-6">
+      <h2
+        data-aos="fade-up"
+        className="text-center text-4xl md:text-5xl font-bold bg-gradient-to-r from-[#6366f1] to-[#a855f7] bg-clip-text text-transparent mb-6"
+      >
         Technical Skills
       </h2>
-      <p className="text-center text-lg text-black dark:text-white mb-10">
+      <p
+        data-aos="fade-up"
+        className="text-center text-lg text-black dark:text-white mb-10"
+      >
         I've gained proficiency in various technologies throughout my career.
         Here are the key tools and frameworks I use to build exceptional
         products.
       </p>
       <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-        <div className="bg-white dark:bg-zinc-800 backdrop-blur-sm rounded-2xl p-6 border border-gray-700/50 hover:border-indigo-500 shadow-lg hover:transition hover:duration-300">
+        <div
+          data-aos="fade-right"
+          className="bg-white dark:bg-zinc-800 backdrop-blur-sm rounded-2xl p-6 border border-gray-700/50 hover:border-indigo-500 shadow-lg hover:transition hover:duration-300"
+        >
           <h3 className="flex items-center gap-2 text-xl text-black dark:text-white font-semibold mb-4">
             <img className="max-w-6" src={FrontEndIcon} alt="front end icon" />
             Frontend
@@ -76,7 +85,10 @@ export default function Skills() {
             </div>
           </div>
         </div>
-        <div className="bg-white dark:bg-zinc-800 backdrop-blur-sm rounded-2xl p-6 border border-gray-700/50 hover:border-indigo-500 shadow-lg hover:transition hover:duration-300">
+        <div
+          data-aos="fade-left"
+          className="bg-white dark:bg-zinc-800 backdrop-blur-sm rounded-2xl p-6 border border-gray-700/50 hover:border-indigo-500 shadow-lg hover:transition hover:duration-300"
+        >
           <h3 className="flex items-center gap-2 text-xl text-black dark:text-white font-semibold mb-4">
             <img className="max-w-6" src={BackEndIcon} alt="back end icon" />
             Backend
@@ -100,7 +112,10 @@ export default function Skills() {
             </div>
           </div>
         </div>
-        <div className="bg-white dark:bg-zinc-800 backdrop-blur-sm rounded-2xl p-6 border border-gray-700/50 hover:border-indigo-500 shadow-lg hover:transition hover:duration-300">
+        <div
+          data-aos="fade-right"
+          className="bg-white dark:bg-zinc-800 backdrop-blur-sm rounded-2xl p-6 border border-gray-700/50 hover:border-indigo-500 shadow-lg hover:transition hover:duration-300"
+        >
           <h3 className="flex items-center gap-2 text-xl text-black dark:text-white font-semibold mb-4">
             <img className="max-w-6" src={DatabaseIcon} alt="database icon" />
             Database
@@ -120,7 +135,10 @@ export default function Skills() {
             </div>
           </div>
         </div>
-        <div className="bg-white dark:bg-zinc-800 backdrop-blur-sm rounded-2xl p-6 border border-gray-700/50 hover:border-indigo-500 shadow-lg hover:transition hover:duration-300">
+        <div
+          data-aos="fade-left"
+          className="bg-white dark:bg-zinc-800 backdrop-blur-sm rounded-2xl p-6 border border-gray-700/50 hover:border-indigo-500 shadow-lg hover:transition hover:duration-300"
+        >
           <h3 className="flex items-center gap-2 text-xl text-black dark:text-white font-semibold mb-4">
             <img className="w-4 h-4" src={ToolsIcon} alt="tools icon" />
             Technologies
