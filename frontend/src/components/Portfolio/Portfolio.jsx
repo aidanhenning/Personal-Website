@@ -9,7 +9,7 @@ export default function Portfolio() {
         Featured Projects
       </h2>
       <div className="flex flex-col gap-8">
-        <div className="flex flex-col md:grid md:grid-cols-2 gap-8">
+        <div className="flex flex-col md:grid md:grid-cols-2 gap-8 px-8 py-8 rounded-2xl border border-gray-700 shadow-lg">
           <div className="flex items-center rounded-2xl">
             <img src={portfolioImg} alt="project image capture" />
           </div>
@@ -61,7 +61,7 @@ export default function Portfolio() {
             </div>
           </div>
         </div>
-        <div className="flex flex-col md:grid md:grid-cols-2 gap-8">
+        <div className="flex flex-col md:grid md:grid-cols-2 gap-8 px-8 py-8 rounded-2xl border border-gray-700 shadow-lg">
           <div className="flex items-center">
             <img src={portfolioImg} alt="project image capture" />
           </div>
