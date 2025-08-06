@@ -35,7 +35,7 @@ export default function Hero() {
               Resume <ion-icon name="cloud-download"></ion-icon>
             </button>
             <button
-              className="flex items-center justify-center gap-1.5 text-black dark:text-white font-semibold bg-gray-400/20 py-2 px-4 rounded hover:bg-gray-500/20 hover:cursor-pointer"
+              className="flex items-center justify-center gap-1.5 text-black dark:text-white font-semibold bg-gray-400/20 py-2 px-4 rounded hover:bg-gray-500/20 hover:cursor-pointer hover:transition hover:duration-300"
               onClick={() => scrollToSection("contact")}
             >
               Connect With Me <ion-icon name="arrow-forward"></ion-icon>

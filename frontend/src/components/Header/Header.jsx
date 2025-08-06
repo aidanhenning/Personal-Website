@@ -19,32 +19,32 @@ export default function Header({ isDark, setIsDark }) {
   const navLinks = (
     <>
       <li
-        className="text-black dark:text-white hover:text-indigo-500 hover:cursor-pointer text-md font-semibold"
+        className="text-black dark:text-white hover:text-indigo-500 hover:cursor-pointer text-md font-semibold hover:transition hover:duration-300"
         onClick={() => scrollToSection("about")}
       >
         About
       </li>
       <li
-        className="text-black dark:text-white hover:text-indigo-500 hover:cursor-pointer text-md font-semibold"
+        className="text-black dark:text-white hover:text-indigo-500 hover:cursor-pointer text-md font-semibold hover:transition hover:duration-300"
         onClick={() => scrollToSection("skills")}
       >
         Skills
       </li>
       <li
-        className="text-black dark:text-white hover:text-indigo-500 hover:cursor-pointer text-md font-semibold"
+        className="text-black dark:text-white hover:text-indigo-500 hover:cursor-pointer text-md font-semibold hover:transition hover:duration-300"
         onClick={() => scrollToSection("portfolio")}
       >
         Portfolio
       </li>
       <li
-        className="text-black dark:text-white hover:text-indigo-500 hover:cursor-pointer text-md font-semibold"
+        className="text-black dark:text-white hover:text-indigo-500 hover:cursor-pointer text-md font-semibold hover:transition hover:duration-300"
         onClick={() => scrollToSection("contact")}
       >
         Contact
       </li>
       <li>
         <button
-          className="text-black dark:text-white hover:text-amber-300  dark:hover:text-gray-400 hover:cursor-pointer text-md font-semibold"
+          className="text-black dark:text-white hover:text-amber-300  dark:hover:text-gray-400 hover:cursor-pointer text-md font-semibold hover:transition hover:duration-300"
           onClick={() => setIsDark(!isDark)}
         >
           {isDark ? <FiMoon /> : <LuSun />}

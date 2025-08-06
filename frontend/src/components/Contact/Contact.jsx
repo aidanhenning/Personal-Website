@@ -28,7 +28,7 @@ export default function Contact() {
         <a
           href="https://github.com/aidanhenning"
           target="_blank"
-          className="flex flex-col items-center text-black dark:text-white bg-white dark:bg-zinc-800 backdrop-blur-sm rounded-2xl p-6 border border-gray-700/50 hover:border-[#6366f1] shadow-lg hover:cursor-pointer"
+          className="flex flex-col items-center text-black dark:text-white bg-white dark:bg-zinc-800 backdrop-blur-sm rounded-2xl p-6 border border-gray-700/50 hover:border-indigo-500 shadow-md hover:shadow-indigo-500/20 hover:cursor-pointer hover:transition hover:duration-300"
         >
           <FaGithub /> Github
         </a>
@@ -36,14 +36,14 @@ export default function Contact() {
         <a
           href="https://www.linkedin.com/in/aidanhenning/"
           target="_blank"
-          className="flex flex-col items-center text-black dark:text-white bg-white dark:bg-zinc-800 backdrop-blur-sm rounded-2xl p-6 border border-gray-700/50 hover:border-[#6366f1] shadow-lg hover:cursor-pointer"
+          className="flex flex-col items-center text-black dark:text-white bg-white dark:bg-zinc-800 backdrop-blur-sm rounded-2xl p-6 border border-gray-700/50 hover:border-indigo-500 shadow-md hover:shadow-indigo-500/20 hover:cursor-pointer hover:transition hover:duration-300"
         >
           <FaLinkedin /> LinkedIn
         </a>
 
         <div
           onClick={handleEmailClick}
-          className="flex flex-col items-center text-black dark:text-white bg-white dark:bg-zinc-800 backdrop-blur-sm rounded-2xl p-6 border border-gray-700/50 hover:border-[#6366f1] shadow-lg hover:cursor-pointer"
+          className="flex flex-col items-center text-black dark:text-white bg-white dark:bg-zinc-800 backdrop-blur-sm rounded-2xl p-6 border border-gray-700/50 hover:border-indigo-500 shadow-md hover:shadow-indigo-500/20 hover:cursor-pointer hover:transition hover:duration-300"
         >
           <MdEmail /> Email
         </div>
