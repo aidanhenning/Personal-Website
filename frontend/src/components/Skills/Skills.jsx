@@ -35,19 +35,19 @@ export default function Skills() {
           </h3>
           <div className="flex flex-wrap gap-2">
             <div className="relative">
-              <div className="flex items-center gap-1 px-3 py-2 rounded-full border border-gray-700 hover:border-indigo-500 shadow-md hover:shadow-indigo-500/20 hover:transition hover:duration-300">
+              <div className="flex items-center gap-1 px-3 py-2 rounded-full border border-gray-700/50 hover:border-indigo-500 shadow-md hover:shadow-indigo-500/20 hover:transition hover:duration-300">
                 <img className="w-4 h-4" src={htmlIcon} alt="html icon" />
                 <span className="text-sm text-black dark:text-white">HTML</span>
               </div>
             </div>
             <div className="relative">
-              <div className="flex items-center gap-1 px-3 py-2 rounded-full border border-gray-700 hover:border-indigo-500 shadow-md hover:shadow-indigo-500/20 hover:transition hover:duration-300">
+              <div className="flex items-center gap-1 px-3 py-2 rounded-full border border-gray-700/50 hover:border-indigo-500 shadow-md hover:shadow-indigo-500/20 hover:transition hover:duration-300">
                 <img className="w-4 h-4" src={cssIcon} alt="css icon" />
                 <span className="text-sm text-black dark:text-white">CSS</span>
               </div>
             </div>
             <div className="relative">
-              <div className="flex items-center gap-1 px-3 py-2 rounded-full border border-gray-700 hover:border-indigo-500 shadow-md hover:shadow-indigo-500/20 hover:transition hover:duration-300">
+              <div className="flex items-center gap-1 px-3 py-2 rounded-full border border-gray-700/50 hover:border-indigo-500 shadow-md hover:shadow-indigo-500/20 hover:transition hover:duration-300">
                 <img className="w-4 h-4" src={jsIcon} alt="javascript icon" />
                 <span className="text-sm text-black dark:text-white">
                   JAVASCRIPT
@@ -55,7 +55,7 @@ export default function Skills() {
               </div>
             </div>
             <div className="relative">
-              <div className="flex items-center gap-1 px-3 py-2 rounded-full border border-gray-700 hover:border-indigo-500 shadow-md hover:shadow-indigo-500/20 hover:transition hover:duration-300">
+              <div className="flex items-center gap-1 px-3 py-2 rounded-full border border-gray-700/50 hover:border-indigo-500 shadow-md hover:shadow-indigo-500/20 hover:transition hover:duration-300">
                 <img className="w-4 h-4" src={reactIcon} alt="react icon" />
                 <span className="text-sm text-black dark:text-white">
                   REACT
@@ -63,7 +63,7 @@ export default function Skills() {
               </div>
             </div>
             <div className="relative">
-              <div className="flex items-center gap-1 px-3 py-2 rounded-full border border-gray-700 hover:border-indigo-500 shadow-md hover:shadow-indigo-500/20 hover:transition hover:duration-300">
+              <div className="flex items-center gap-1 px-3 py-2 rounded-full border border-gray-700/50 hover:border-indigo-500 shadow-md hover:shadow-indigo-500/20 hover:transition hover:duration-300">
                 <img
                   className="w-4 h-4"
                   src={tailwindIcon}
@@ -83,7 +83,7 @@ export default function Skills() {
           </h3>
           <div className="flex flex-wrap gap-2">
             <div className="relative">
-              <div className="flex items-center gap-1 px-3 py-2 rounded-full border border-gray-700 hover:border-indigo-500 shadow-md hover:shadow-indigo-500/20 hover:transition hover:duration-300">
+              <div className="flex items-center gap-1 px-3 py-2 rounded-full border border-gray-700/50 hover:border-indigo-500 shadow-md hover:shadow-indigo-500/20 hover:transition hover:duration-300">
                 <img className="w-4 h-4" src={nodeIcon} alt="node icon" />
                 <span className="text-sm text-black dark:text-white">
                   NODE JS
@@ -91,7 +91,7 @@ export default function Skills() {
               </div>
             </div>
             <div className="relative">
-              <div className="flex items-center gap-1 px-3 py-2 rounded-full border border-gray-700 hover:border-indigo-500 shadow-md hover:shadow-indigo-500/20 hover:transition hover:duration-300">
+              <div className="flex items-center gap-1 px-3 py-2 rounded-full border border-gray-700/50 hover:border-indigo-500 shadow-md hover:shadow-indigo-500/20 hover:transition hover:duration-300">
                 <img className="w-4 h-4" src={expressIcon} alt="express icon" />
                 <span className="text-sm text-black dark:text-white">
                   EXPRESS JS
@@ -107,7 +107,7 @@ export default function Skills() {
           </h3>
           <div className="flex flex-wrap gap-2">
             <div className="relative">
-              <div className="flex items-center gap-1 px-3 py-2 rounded-full border border-gray-700 hover:border-indigo-500 shadow-md hover:shadow-indigo-500/20 hover:transition hover:duration-300">
+              <div className="flex items-center gap-1 px-3 py-2 rounded-full border border-gray-700/50 hover:border-indigo-500 shadow-md hover:shadow-indigo-500/20 hover:transition hover:duration-300">
                 <img
                   className="w-4 h-4"
                   src={postgresqlIcon}
@@ -127,7 +127,7 @@ export default function Skills() {
           </h3>
           <div className="flex flex-wrap gap-2">
             <div className="relative">
-              <div className="flex items-center gap-1 px-3 py-2 rounded-full border border-gray-700 hover:border-indigo-500 shadow-md hover:shadow-indigo-500/20 hover:transition hover:duration-300">
+              <div className="flex items-center gap-1 px-3 py-2 rounded-full border border-gray-700/50 hover:border-indigo-500 shadow-md hover:shadow-indigo-500/20 hover:transition hover:duration-300">
                 <img className="w-4 h-4" src={vscodeIcon} alt="vscode icon" />
                 <span className="text-sm text-black dark:text-white">
                   VSCODE
@@ -135,13 +135,13 @@ export default function Skills() {
               </div>
             </div>
             <div className="relative">
-              <div className="flex items-center gap-1 px-3 py-2 rounded-full border border-gray-700 hover:border-indigo-500 shadow-md hover:shadow-indigo-500/20 hover:transition hover:duration-300">
+              <div className="flex items-center gap-1 px-3 py-2 rounded-full border border-gray-700/50 hover:border-indigo-500 shadow-md hover:shadow-indigo-500/20 hover:transition hover:duration-300">
                 <img className="w-4 h-4" src={gitIcon} alt="git icon" />
                 <span className="text-sm text-black dark:text-white">GIT</span>
               </div>
             </div>
             <div className="relative">
-              <div className="flex items-center gap-1 px-3 py-2 rounded-full border border-gray-700 hover:border-indigo-500 shadow-md hover:shadow-indigo-500/20 hover:transition hover:duration-300">
+              <div className="flex items-center gap-1 px-3 py-2 rounded-full border border-gray-700/50 hover:border-indigo-500 shadow-md hover:shadow-indigo-500/20 hover:transition hover:duration-300">
                 <img className="w-4 h-4" src={githubIcon} alt="github icon" />
                 <span className="text-sm text-black dark:text-white">
                   GITHUB
@@ -149,7 +149,7 @@ export default function Skills() {
               </div>
             </div>
             <div className="relative">
-              <div className="flex items-center gap-1 px-3 py-2 rounded-full border border-gray-700 hover:border-indigo-500 shadow-md hover:shadow-indigo-500/20 hover:transition hover:duration-300">
+              <div className="flex items-center gap-1 px-3 py-2 rounded-full border border-gray-700/50 hover:border-indigo-500 shadow-md hover:shadow-indigo-500/20 hover:transition hover:duration-300">
                 <img className="w-4 h-4" src={figmaIcon} alt="figma icon" />
                 <span className="text-sm text-black dark:text-white">
                   FIGMA

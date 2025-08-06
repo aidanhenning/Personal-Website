@@ -9,7 +9,7 @@ export default function Portfolio() {
         Featured Projects
       </h2>
       <div className="flex flex-col gap-8">
-        <div className="flex flex-col md:grid md:grid-cols-2 gap-8 px-8 py-8 rounded-2xl border border-gray-700 shadow-lg">
+        <div className="flex flex-col md:grid md:grid-cols-2 gap-8 px-8 py-8 rounded-2xl border border-gray-700/50 shadow-lg">
           <div className="flex items-center rounded-2xl">
             <img src={portfolioImg} alt="project image capture" />
           </div>
@@ -26,25 +26,25 @@ export default function Portfolio() {
                 and a smooth user experience across devices.
               </p>
               <ul className="flex flex-wrap gap-2 text-black dark:text-white text-md mb-3">
-                <li className="text-sm px-1.5 py-1 rounded-full border border-gray-700">
+                <li className="text-sm px-1.5 py-1 rounded-full border border-gray-700/50">
                   HTML
                 </li>
-                <li className="text-sm px-1.5 py-1 rounded-full border border-gray-700">
+                <li className="text-sm px-1.5 py-1 rounded-full border border-gray-700/50">
                   CSS
                 </li>
-                <li className="text-sm px-1.5 py-1 rounded-full border border-gray-700">
+                <li className="text-sm px-1.5 py-1 rounded-full border border-gray-700/50">
                   JS
                 </li>
-                <li className="text-sm px-1.5 py-1 rounded-full border border-gray-700">
+                <li className="text-sm px-1.5 py-1 rounded-full border border-gray-700/50">
                   REACT
                 </li>
-                <li className="text-sm px-1.5 py-1 rounded-full border border-gray-700">
+                <li className="text-sm px-1.5 py-1 rounded-full border border-gray-700/50">
                   NODE JS
                 </li>
-                <li className="text-sm px-1.5 py-1 rounded-full border border-gray-700">
+                <li className="text-sm px-1.5 py-1 rounded-full border border-gray-700/50">
                   EXPRESS JS
                 </li>
-                <li className="text-sm px-1.5 py-1 rounded-full border border-gray-700">
+                <li className="text-sm px-1.5 py-1 rounded-full border border-gray-700/50">
                   POSTGRESQL
                 </li>
               </ul>
@@ -61,7 +61,7 @@ export default function Portfolio() {
             </div>
           </div>
         </div>
-        <div className="flex flex-col md:grid md:grid-cols-2 gap-8 px-8 py-8 rounded-2xl border border-gray-700 shadow-lg">
+        <div className="flex flex-col md:grid md:grid-cols-2 gap-8 px-8 py-8 rounded-2xl border border-gray-700/50 shadow-lg">
           <div className="flex items-center">
             <img src={portfolioImg} alt="project image capture" />
           </div>
@@ -77,19 +77,19 @@ export default function Portfolio() {
                 details, GitHub repositories, and contact information.
               </p>
               <ul className="flex flex-wrap gap-2 text-black dark:text-white text-md">
-                <li className="text-sm px-1.5 py-1 rounded-full border border-gray-700">
+                <li className="text-sm px-1.5 py-1 rounded-full border border-gray-700/50">
                   HTML
                 </li>
-                <li className="text-sm px-1.5 py-1 rounded-full border border-gray-700">
+                <li className="text-sm px-1.5 py-1 rounded-full border border-gray-700/50">
                   CSS
                 </li>
-                <li className="text-sm px-1.5 py-1 rounded-full border border-gray-700">
+                <li className="text-sm px-1.5 py-1 rounded-full border border-gray-700/50">
                   JS
                 </li>
-                <li className="text-sm px-1.5 py-1 rounded-full border border-gray-700">
+                <li className="text-sm px-1.5 py-1 rounded-full border border-gray-700/50">
                   REACT
                 </li>
-                <li className="text-sm px-1.5 py-1 rounded-full border border-gray-700">
+                <li className="text-sm px-1.5 py-1 rounded-full border border-gray-700/50">
                   TAILWIND
                 </li>
               </ul>
