@@ -9,7 +9,7 @@ export default function About() {
     <div id="about" className="mx-auto px-[10%] mb-[10%]">
       <h2
         data-aos="fade-up"
-        className="text-center text-4xl md:text-5xl font-bold bg-gradient-to-r from-[#6366f1] to-[#a855f7] bg-clip-text text-transparent mb-6"
+        className="text-center text-4xl md:text-5xl font-bold bg-gradient-to-r from-[#6366f1] to-[#a855f7] bg-clip-text text-transparent pb-6"
       >
         About Me
       </h2>
