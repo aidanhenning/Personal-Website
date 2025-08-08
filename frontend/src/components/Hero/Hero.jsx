@@ -1,7 +1,6 @@
 import React from "react";
 import Lottie from "lottie-react";
 import animation from "../../assets/Programming Animation.json";
-import resume from "../../assets/aidanhenning_resume.pdf";
 import { FaChevronDown } from "react-icons/fa6";
 
 export default function Hero() {
@@ -38,7 +37,7 @@ export default function Hero() {
           </p>
           <div className="flex gap-4">
             <a
-              href={resume}
+              href="/AidanHenning_Resume.pdf"
               target="_blank"
               className="flex items-center justify-center gap-1.5 text-white font-semibold bg-gradient-to-r from-[#6366f1] to-[#a855f7] py-2 px-4 rounded hover:cursor-pointer"
             >
