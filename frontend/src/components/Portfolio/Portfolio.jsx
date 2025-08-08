@@ -1,5 +1,6 @@
 import React from "react";
-import portfolioImg from "../../assets/project-temp.jpg";
+import propertyManagementApp from "../../assets/pm-app-snip.png";
+import personalSite from "../../assets/personal-site.png";
 import { FaExternalLinkAlt } from "react-icons/fa";
 
 export default function Portfolio() {
@@ -13,8 +14,12 @@ export default function Portfolio() {
       </h2>
       <div className="flex flex-col gap-8">
         <div className="flex flex-col md:grid md:grid-cols-2 gap-8 px-8 py-8 rounded-2xl border border-gray-700/50 shadow-lg">
-          <div className="flex items-center rounded-2xl">
-            <img src={portfolioImg} alt="project image capture" />
+          <div className="flex items-center max-w-2xl overflow-hidden rounded-2xl">
+            <img
+              src={propertyManagementApp}
+              alt="project image capture"
+              className="transition duration-200 hover:scale-105"
+            />
           </div>
           <div className="flex items-center">
             <div>
@@ -65,8 +70,12 @@ export default function Portfolio() {
           </div>
         </div>
         <div className="flex flex-col md:grid md:grid-cols-2 gap-8 px-8 py-8 rounded-2xl border border-gray-700/50 shadow-lg">
-          <div className="flex items-center">
-            <img src={portfolioImg} alt="project image capture" />
+          <div className="flex items-center max-w-2xl overflow-hidden rounded-2xl">
+            <img
+              src={personalSite}
+              alt="project image capture"
+              className="transition duration-200 hover:scale-105"
+            />
           </div>
           <div className="flex items-center">
             <div>
