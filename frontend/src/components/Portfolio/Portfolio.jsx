@@ -1,6 +1,6 @@
 import React from "react";
 import propertyManagementApp from "../../assets/pm-app-snip.png";
-import personalSite from "../../assets/personal-site.png";
+import leagueSearchApp from "../../assets/LoL-search.png";
 import { FaExternalLinkAlt } from "react-icons/fa";
 
 export default function Portfolio() {
@@ -72,7 +72,7 @@ export default function Portfolio() {
         <div className="flex flex-col md:grid md:grid-cols-2 gap-8 px-8 py-8 rounded-2xl border border-gray-700/50 shadow-lg">
           <div className="flex items-center max-w-2xl overflow-hidden rounded-2xl">
             <img
-              src={personalSite}
+              src={leagueSearchApp}
               alt="project image capture"
               className="transition duration-200 hover:scale-105"
             />
@@ -80,13 +80,17 @@ export default function Portfolio() {
           <div className="flex items-center">
             <div>
               <h3 className="text-black dark:text-white text-xl md:text-2xl mb-3">
-                Personal Portfolio Site
+                Riot Games Search Engine
               </h3>
               <p className="text-black dark:text-gray-300 text-md mb-3">
-                Developed a responsive, single-page personal portfolio website
-                to showcase software development projects and technical skills.
-                Implemented clean, accessible UI/UX design to highlight project
-                details, GitHub repositories, and contact information.
+                Built a full-stack League of Legends profile tracker that
+                integrates with Riot’s Data Dragon and API to display player
+                statistics, match history, ranked performance, and champion
+                mastery. Designed modular, reusable React components for key
+                features such as match summaries, ranked cards, and mastery
+                overviews, with responsive layouts optimized for clarity and
+                usability. Focused on clean data handling, API integration, and
+                a polished UI to deliver an engaging and scalable experience.
               </p>
               <ul className="flex flex-wrap gap-2 text-black dark:text-white text-md">
                 <li className="text-sm px-1.5 py-1 rounded-full border border-gray-700/50">
@@ -100,6 +104,12 @@ export default function Portfolio() {
                 </li>
                 <li className="text-sm px-1.5 py-1 rounded-full border border-gray-700/50">
                   REACT
+                </li>
+                <li className="text-sm px-1.5 py-1 rounded-full border border-gray-700/50">
+                  NODE JS
+                </li>
+                <li className="text-sm px-1.5 py-1 rounded-full border border-gray-700/50">
+                  EXPRESS JS
                 </li>
                 <li className="text-sm px-1.5 py-1 rounded-full border border-gray-700/50">
                   TAILWIND
