@@ -14,8 +14,8 @@ export default function Portfolio() {
         Featured Projects
       </h2>
       <div className="flex flex-col gap-8">
-        <div className="flex flex-col md:grid md:grid-cols-2 gap-8 px-8 py-8 rounded-2xl border border-gray-700/50 shadow-lg">
-          <div className="flex items-center max-w-2xl overflow-hidden rounded-2xl">
+        <div className="flex flex-col items-center md:grid md:grid-cols-2 gap-8 px-8 py-8 rounded-2xl border border-gray-700/50 shadow-lg">
+          <div className="flex max-w-2xl overflow-hidden">
             <img
               src={runClubApp}
               alt="project image capture"
@@ -68,8 +68,8 @@ export default function Portfolio() {
             </div>
           </div>
         </div>
-        <div className="flex flex-col md:grid md:grid-cols-2 gap-8 px-8 py-8 rounded-2xl border border-gray-700/50 shadow-lg">
-          <div className="flex items-center max-w-2xl max-h-lg overflow-hidden rounded-2xl">
+        <div className="flex flex-col items-center md:grid md:grid-cols-2 gap-8 px-8 py-8 rounded-2xl border border-gray-700/50 shadow-lg">
+          <div className="flex items-center max-w-2xl overflow-hidden">
             <img
               src={leagueSearchApp}
               alt="project image capture"
@@ -128,7 +128,7 @@ export default function Portfolio() {
           </div>
         </div>
         <div className="flex flex-col md:grid md:grid-cols-2 gap-8 px-8 py-8 rounded-2xl border border-gray-700/50 shadow-lg">
-          <div className="flex items-center max-w-2xl overflow-hidden rounded-2xl">
+          <div className="flex items-center max-w-2xl overflow-hidden">
             <img
               src={propertyManagementApp}
               alt="project image capture"
