@@ -1,4 +1,5 @@
 import React from "react";
+import runClubApp from "../../assets/run-club-app.png";
 import propertyManagementApp from "../../assets/pm-app-snip.png";
 import leagueSearchApp from "../../assets/LoL-search.png";
 import { FaExternalLinkAlt } from "react-icons/fa";
@@ -16,7 +17,7 @@ export default function Portfolio() {
         <div className="flex flex-col md:grid md:grid-cols-2 gap-8 px-8 py-8 rounded-2xl border border-gray-700/50 shadow-lg">
           <div className="flex items-center max-w-2xl overflow-hidden rounded-2xl">
             <img
-              src={propertyManagementApp}
+              src={runClubApp}
               alt="project image capture"
               className="transition duration-200 hover:scale-105"
             />
@@ -24,14 +25,12 @@ export default function Portfolio() {
           <div className="flex items-center">
             <div>
               <h3 className="text-black dark:text-white text-xl md:text-2xl mb-3">
-                Capstone: Property Management App
+                Run Club App
               </h3>
               <p className="text-black dark:text-gray-300 text-md mb-3">
-                Built a full-stack rental management platform with dual
-                interfaces for property managers and residents to handle
-                maintenance requests, rent payments, and community updates.
-                Focused on usability and modular design to ensure scalability
-                and a smooth user experience across devices.
+                Developed a full-stack social platform and event planning app
+                for run clubs. Optimized for mobile user experiences accross iOS
+                and Andriod devices. Hosted on Netlify, Render, and Cloudinary
               </p>
               <ul className="flex flex-wrap gap-2 text-black dark:text-white text-md mb-3">
                 <li className="text-sm px-1.5 py-1 rounded-full border border-gray-700/50">
@@ -58,7 +57,7 @@ export default function Portfolio() {
               </ul>
               <a
                 className="text-blue-500"
-                href="https://cozy-melba-1a313f.netlify.app/"
+                href="https://run-club-app.netlify.app/"
                 target="_blank"
               >
                 <span className="flex items-center gap-2 font-semibold hover:cursor-pointer">
@@ -115,6 +114,72 @@ export default function Portfolio() {
                   TAILWIND
                 </li>
               </ul>
+              <a
+                className="text-blue-500"
+                href="https://github.com/aidanhenning/League-of-Legends-Search"
+                target="_blank"
+              >
+                <span className="flex items-center gap-2 font-semibold hover:cursor-pointer">
+                  Github Repo
+                  <FaExternalLinkAlt />
+                </span>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div className="flex flex-col md:grid md:grid-cols-2 gap-8 px-8 py-8 rounded-2xl border border-gray-700/50 shadow-lg">
+          <div className="flex items-center max-w-2xl overflow-hidden rounded-2xl">
+            <img
+              src={propertyManagementApp}
+              alt="project image capture"
+              className="transition duration-200 hover:scale-105"
+            />
+          </div>
+          <div className="flex items-center">
+            <div>
+              <h3 className="text-black dark:text-white text-xl md:text-2xl mb-3">
+                Capstone: Property Management App
+              </h3>
+              <p className="text-black dark:text-gray-300 text-md mb-3">
+                Built a full-stack rental management platform with dual
+                interfaces for property managers and residents to handle
+                maintenance requests, rent payments, and community updates.
+                Focused on usability and modular design to ensure scalability
+                and a smooth user experience across devices.
+              </p>
+              <ul className="flex flex-wrap gap-2 text-black dark:text-white text-md mb-3">
+                <li className="text-sm px-1.5 py-1 rounded-full border border-gray-700/50">
+                  HTML
+                </li>
+                <li className="text-sm px-1.5 py-1 rounded-full border border-gray-700/50">
+                  CSS
+                </li>
+                <li className="text-sm px-1.5 py-1 rounded-full border border-gray-700/50">
+                  JS
+                </li>
+                <li className="text-sm px-1.5 py-1 rounded-full border border-gray-700/50">
+                  REACT
+                </li>
+                <li className="text-sm px-1.5 py-1 rounded-full border border-gray-700/50">
+                  NODE JS
+                </li>
+                <li className="text-sm px-1.5 py-1 rounded-full border border-gray-700/50">
+                  EXPRESS JS
+                </li>
+                <li className="text-sm px-1.5 py-1 rounded-full border border-gray-700/50">
+                  POSTGRESQL
+                </li>
+              </ul>
+              <a
+                className="text-blue-500"
+                href="https://github.com/aidanhenning/Property-Management-App"
+                target="_blank"
+              >
+                <span className="flex items-center gap-2 font-semibold hover:cursor-pointer">
+                  Github Repo
+                  <FaExternalLinkAlt />
+                </span>
+              </a>
             </div>
           </div>
         </div>
