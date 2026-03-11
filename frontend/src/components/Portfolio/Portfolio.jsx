@@ -69,7 +69,7 @@ export default function Portfolio() {
           </div>
         </div>
         <div className="flex flex-col md:grid md:grid-cols-2 gap-8 px-8 py-8 rounded-2xl border border-gray-700/50 shadow-lg">
-          <div className="flex items-center max-w-2xl overflow-hidden rounded-2xl">
+          <div className="flex items-center max-w-2xl max-h-lg overflow-hidden rounded-2xl">
             <img
               src={leagueSearchApp}
               alt="project image capture"
